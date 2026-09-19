@@ -1,0 +1,77 @@
+{
+  "expo": {
+    "name": "Vital",
+    "slug": "vital",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apasimboraymond02.vital",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "Vital uses Face ID to secure your health data."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.apasimboraymond02.vital",
+      "versionCode": 4,
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT",
+        "android.permission.POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          }
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow Vital to use Face ID to secure your health data."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Vital to access your camera."
+        }
+      ],
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "YOUR_ADMOB_ANDROID_APP_ID",
+          "iosAppId": "YOUR_ADMOB_IOS_APP_ID"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "YOUR-EAS-PROJECT-ID"
+      }
+    }
+  }
+}

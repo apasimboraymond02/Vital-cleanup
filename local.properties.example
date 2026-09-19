@@ -1,0 +1,15 @@
+## This file must *NOT* be checked into Version Control Systems,
+# as it contains information specific to your local configuration.
+#
+# Location of the SDK. This is only used by Gradle.
+# Copy this file to `local.properties` and adjust the path.
+# Example:
+#   sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+
+# Release signing (optional, for local release builds only).
+# Prefer environment variables over storing passwords here.
+# VITAL_RELEASE_STORE_FILE=../release-key.keystore
+# VITAL_RELEASE_STORE_PASSWORD=your-store-password
+# VITAL_RELEASE_KEY_ALIAS=your-key-alias
+# VITAL_RELEASE_KEY_PASSWORD=your-key-password

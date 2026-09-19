@@ -1,0 +1,8 @@
+{
+  "name": "Vital",
+  "description": "Women's Health, Cycle & Fertility Tracker",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
